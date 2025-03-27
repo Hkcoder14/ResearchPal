@@ -12,7 +12,12 @@ def summarize_text(text):
 
 def answer_question(question, context):
     """Answer a research-related question using retrieved text from ChromaDB."""
-    prompt = f"Based on the research paper, answer:\n{question}\nContext:\n{context}"
+    prompt = (
+        f"Based on the following research paper, provide a clear and concise answer to the question.\n\n"
+        f"Context from the paper:\n{context}\n\n"
+        f"Question: {question}\n"
+        f"Answer concisely but informatively."
+    )
     return query_llm(prompt)
 
 if __name__ == "__main__":
