@@ -38,7 +38,9 @@ pip install -r requirements.txt
 ### **1️⃣ Start Ollama (LLM Backend)**
 Ollama is required for processing queries. Start it using:  
 ```bash
-ollama run llama2
+ollama run llama2 
+or
+ollama run mistral
 ```
 
 ### **2️⃣ Run ResearchPal**
