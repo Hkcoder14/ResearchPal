@@ -82,8 +82,8 @@ pip install -r requirements.txt
 
 ## 👨‍💻 Author  
 - **Harsh Kumar**  
-- **GitHub**: [your-username](https://github.com/your-username)  
-- **LinkedIn**: [your-profile](https://linkedin.com/in/your-profile)  
+- **GitHub**: [https://github.com/Hkcoder14] 
+- **LinkedIn**: [https://www.linkedin.com/in/harshkumar1407/]
 
 ---
 
